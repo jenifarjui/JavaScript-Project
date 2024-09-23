@@ -1,0 +1,40 @@
+body{
+    font-family: "Roboto", sans-serif;
+  
+}
+
+.container{
+   margin: 0;
+    padding: 30px;
+    font-size: 20px;
+    width: 500px;
+}
+.container h1 {
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-title{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 1.2s;
+    cursor: pointer;
+}
+.accordion-title:hover {
+background-color: blueviolet;
+}
+.accordion-contant{
+    padding: 10px;
+    background-color: bisque;
+    display: none;
+}
+.accordion-item.active .accordion-contant {
+    display: block;
+}
