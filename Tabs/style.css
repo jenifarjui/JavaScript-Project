@@ -1,0 +1,51 @@
+body{
+    font-family: "Roboto", sans-serif;
+  
+}
+
+.container{
+   margin: 0;
+    padding: 30px;
+    font-size: 20px;
+    width: 500px;
+}
+.container h1 {
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+}
+.tabs{
+    width: 500px;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+.tabs button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: blue;
+    transition: 1.2s;
+}
+.tabs button:hover{
+    background-color: rgb(97, 97, 247);
+}
+.tabs button.active{
+    background-color: #fff;
+    color: #000;
+}
+.tabcontent{
+    background-color: bisque;
+    width: 500px;
+    padding: 10px;
+    line-height: 25px;
+    display:none ;
+   
+}
+.tabcontent h1{
+    font-size: 20px;
+    text-align: left;
+}
