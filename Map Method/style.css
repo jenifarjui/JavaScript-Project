@@ -1,0 +1,23 @@
+body{
+    font-family: "Roboto", sans-serif;
+  
+}
+
+.container{
+   margin: 0;
+    padding: 30px;
+    font-size: 20px;
+    width: 500px;
+}
+.container h1 {
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+}
+.tabs{
+    width: 500px;
+    overflow: hidden;
+    background-color: blueviolet;
+}
