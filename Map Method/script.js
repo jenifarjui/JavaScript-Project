@@ -16,11 +16,10 @@ let arrayName= [
     {fname : 'jesi', lname : 'akther'},
     {fname : 'zebin', lname : 'akter'},
 ];
-let nameMap=arrayName.map(callName);
+let nameMap=arrayName.map(function(fullname){
+    return fullname.fname + ' '+ fullname.lname ;
+});
 
 
 document.write(nameMap);
 
-function callName(fullname){
-    return fullname.fname + ' '+ fullname.lname ;
-}
